@@ -1,3 +1,13 @@
 git clone -- downloads a local copy of the remote repo
 git fork -- downloads a local copy but need permission from the original author to push to the remote repo where you extracted your copy from. You can however merge this copy to your own remote repo essentially making a seperate repo of your own.
 git pull -- a high level execution that essentially perfoms git clone and git merge successively i,e they are executed on after the other (git clone the git merge)
+
+Finally able to push from my local repo to a remote one
+
+Created a remote repo named tutorials
+
+Pulled the remote repo to the local machine first because the local machine did not have the README.md file in it yet.
+
+git push https://github.com/syathish/Github-Tutorials master
+
+
